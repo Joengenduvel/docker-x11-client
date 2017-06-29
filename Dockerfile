@@ -1,6 +1,6 @@
 FROM openjdk:jdk-alpine
 
-ENV DISPLAY=192.168.1.1:0.0
+ENV DISPLAY=10.0.75.1:0.0
 ENV USER=dev
 ENV GROUP=developers
 
