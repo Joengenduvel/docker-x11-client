@@ -13,6 +13,6 @@ VOLUME ["/home"]
 
 RUN apk add --no-cache dbus libx11 firefox-esr ca-certificates openssl curl fontconfig ttf-dejavu \
  && update-ca-certificates \
- && ttfs=$(apk search -q ttf- | grep -v '\-doc') \
+ && ttfs=$(apk search search --no-cache -q ttf- | grep -v '\-doc') \
  && apk add --no-cache $ttfs \
  && rm -rf /var/cache/apk/*
