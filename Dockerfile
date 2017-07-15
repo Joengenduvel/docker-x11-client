@@ -11,8 +11,7 @@ RUN adduser -D dev \
  
 VOLUME ["/home"]
 
-RUN apk update \
- && apk add --no-cache dbus libx11 firefox-esr ca-certificates openssl curl fontconfig ttf-dejavu \
+RUN apk add --no-cache dbus libx11 firefox-esr ca-certificates openssl curl fontconfig ttf-dejavu \
  && update-ca-certificates \
  && ttfs=$(apk search -q ttf- | grep -v '\-doc') \
  && apk add --no-cache $ttfs \
