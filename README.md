@@ -1,4 +1,6 @@
 # docker-x11-client
+[![](https://images.microbadger.com/badges/version/joengenduvel/docker-x11-client.svg)](https://microbadger.com/images/joengenduvel/docker-x11-client "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/joengenduvel/docker-x11-client.svg)](https://microbadger.com/images/joengenduvel/docker-x11-client "Get your own image badge on microbadger.com")
 
 ## Goal
 This images provides a linux machine with all the tools needed to Launch X11 applications in a docker container
