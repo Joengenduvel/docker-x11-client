@@ -28,9 +28,6 @@ The standard installation should do the trick.
 If you have a desktop environment installed, you can use the excisting X server of your host.
 Replace the IP in the `DISPLAY` environment variable with your host's IP or hostname.
 
-## This machine includes
-* Oracle Java 8 JDK
-
 ## Known issues
 * menus of Visual Studio Code are slow when using Vcxsrv
 
