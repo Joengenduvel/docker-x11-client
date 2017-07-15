@@ -1,4 +1,4 @@
-FROM openjdk:jdk-alpine
+FROM alpine
 
 ENV DISPLAY=10.0.75.1:0.0
 ENV USER=dev
