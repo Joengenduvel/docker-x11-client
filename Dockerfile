@@ -11,7 +11,7 @@ RUN adduser -D dev \
  
 VOLUME ["/home"]
 
-RUN apk add --no-cache dbus libx11 ca-certificates openssl curl \
+RUN apk add --no-cache dbus libx11 ca-certificates openssl curl xclock \
  && update-ca-certificates \
  && ttfs=$(apk search search --no-cache -q ttf- | grep -v '\-doc') \
  && apk add --no-cache $ttfs \
